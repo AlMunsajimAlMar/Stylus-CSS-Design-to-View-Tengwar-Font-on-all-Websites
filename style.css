@@ -6,7 +6,7 @@
 
 @-moz-document url-prefix("*") {
     @font-face {
-        src: url('FreeMonoTengwar-embedding.ttf');
+        src: url('https://github.com/DarkKingPegasus/Stylus-CSS-Design-to-View-Tengwar-Font-on-all-Websites/blob/master/TengwarFormalCSUR.ttf');
         font-family: TengwarMono
     }
     
