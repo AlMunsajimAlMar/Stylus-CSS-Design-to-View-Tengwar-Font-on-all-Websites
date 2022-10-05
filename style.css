@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         Tengwar Font
+@version      20221005.16.54
+@namespace    ?
+==/UserStyle== */
+
+@-moz-document url-prefix("*") {
+    @font-face {
+        src: url('FreeMonoTengwar-embedding.ttf');
+        font-family: TengwarMono
+    }
+    
+    * {
+        font-family: TengwarMono;
+    }
+    }
