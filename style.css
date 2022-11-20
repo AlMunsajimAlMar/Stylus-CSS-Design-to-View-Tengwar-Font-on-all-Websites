@@ -6,11 +6,45 @@
 
 @-moz-document url-prefix("*") {
     @font-face {
-        src: url('https://github.com/DarkKingPegasus/Stylus-CSS-Design-to-View-Tengwar-Font-on-all-Websites/blob/master/TengwarFormalCSUR.ttf');
-        font-family: TengwarMono
+        font-family: 'Caveat';
+        src: url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
     }
-    
+    @font-face {
+        font-family: 'Comfortaa';
+        src: url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+    }
+    @font-face {
+        font-family: 'Harmattan';
+        src: url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+    }
+    @font-face {
+        font-family: 'Jua';
+        src: url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+    }
+    @font-face {
+        font-family: 'Kalam';
+        src: url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+    }
+    @font-face {
+        font-family: 'Kosugi Maru';
+        src: url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+    }
+    @font-face {
+        font-family: 'Noto Sans Javanese';
+        src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese&display=swap');
+    }
+    @font-face {
+        font-family: 'Rubik';
+        src: url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+    }
+    @font-face {
+        font-family: "Tengwar Telcontar";
+        src: url('https://github.com/DarkKingPegasus/Stylus-CSS-Design-to-View-Tengwar-Font-on-all-Websites/blob/master/tengtelc.ttf?raw=true');
+    }
+    @font-face {
+        font-family: "Tengwar Formal CSUR";
+        src: url('https://github.com/DarkKingPegasus/Stylus-CSS-Design-to-View-Tengwar-Font-on-all-Websites/blob/master/TengwarFormalCSUR.ttf?raw=true');
+    }
     * {
-        font-family: TengwarMono;
-    }
+        font-family: 'Tengwar Formal CSUR', 'Tengwar Telcontar', 'Harmattan', 'Kosugi Maru', 'Jua', 'Kalam', 'Rubik', 'Comfortaa', 'Caveat', 'Noto Sans Javanese' !important;
     }
